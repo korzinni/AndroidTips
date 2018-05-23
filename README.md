@@ -1,2 +1,2 @@
 # AndroidTips
-- [ Android Navigation ](/AndoridNavigation.md)
+- [ Android Navigation ](AndroidTips/AndoridNavigation.md)
