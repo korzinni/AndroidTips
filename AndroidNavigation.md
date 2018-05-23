@@ -18,7 +18,11 @@ dependencies {
      implementation "android.arch.navigation:navigation-ui:$nav_version" // use -ktx for Kotlin
      // optional - Test helpers
      androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version" // use -ktx for Kotlin
- }
- '''
+ }```
+ 
+ Что-то другое
+ 
+
+ 
  
 
