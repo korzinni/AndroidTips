@@ -11,7 +11,7 @@ action - соединение м/у экранами (действие пере�
 ## [ Добавить компоненты в проект](https://developer.android.com/topic/libraries/architecture/adding-components)
 в app/build.gradle
 
-
+```groovy
     dependencies {
         def nav_version = "1.0.0-alpha01"
         implementation "android.arch.navigation:navigation-fragment:$nav_version" // use -ktx for Kotlin
@@ -19,11 +19,11 @@ action - соединение м/у экранами (действие пере�
         // optional - Test helpers
         androidTestImplementation "android.arch.navigation:navigation-testing:$nav_version" // use -ktx for Kotlin
     }
- 
+``` 
 Для передачи аргументов между экранами:
 
 в build.gradle проекта добавить:
-
+```groovy
     buildscript {
         repositories {
             google()
@@ -32,10 +32,13 @@ action - соединение м/у экранами (действие пере�
             classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:1.0.0-alpha01"
         }
     }
+```
     
 в build.gradle модуля:
-
+```groovy
     apply plugin: "androidx.navigation.safeargs"
+```
+
  
 ## Создать `res/navigation/graph.xml`
 
@@ -45,7 +48,7 @@ action - соединение м/у экранами (действие пере�
 
 #### Пример из двух фрагментов:
 
-
+```xml
     <?xml version="1.0" encoding="utf-8"?>
     <navigation xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
@@ -71,7 +74,7 @@ action - соединение м/у экранами (действие пере�
             tools:layout="@layout/fragment_blank_fragment2" />
             
     </navigation>
-    
+```
  
  `<navigation>` - корневой тег
  
