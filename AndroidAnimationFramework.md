@@ -49,3 +49,6 @@ animation.start();
 - Custom Animations
 - Shared Objects
 ## Moar
+
+## Tips:
+
