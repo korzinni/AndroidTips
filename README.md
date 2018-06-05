@@ -5,3 +5,4 @@
 - [ View Custom Attribute ](/ViewCustomAttribute.md)
 - [ DataBinding Questions ](/DataBindingQuestions.md)
 - [ Action Bar ](/ActionBarTips.md)
+- [ Fragment State Pager Adapter ](/FragmentStatePagerAdapterTips.md)
