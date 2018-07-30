@@ -1,4 +1,4 @@
- #[FLAGS](https://developer.android.com/reference/android/view/WindowManager.LayoutParams.html)
+ #[STATUS BAR](https://developer.android.com/reference/android/view/WindowManager.LayoutParams.html)
  
 Изначальная задача:
 
@@ -22,6 +22,7 @@ ActionBar статуБаром не перекрывается в любом с�
                         | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 ```
 - позволяет получить тот же эффект что и при translucent но с возможностью задавать цвет.
+[Источник](https://developer.android.com/training/system-ui/immersive)
 
 Для полностью прозрачного статусбара проще использовать:
 ```java
@@ -45,3 +46,26 @@ View view = new View(this);
 Ссылки:
 https://stackoverflow.com/questions/27856603/lollipop-draw-behind-statusbar-with-its-color-set-to-transparent
 https://developer.android.com/reference/android/view/WindowManager.LayoutParams.html
+
+[#Window insets](https://developer.android.com/reference/android/view/WindowInsets)
+
+inset - дословно вставка, есть DrawableInset - позволяет сделать Drawable c отступами:
+
+```xml
+<inset
+    android:drawable="@drawable/(Enter the file name under drawable)"
+    android:insetBottom="4dp"
+    android:insetTop="4dp"/>
+```
+то есть по сути inset это размеры отступов. То есть inset хранит, размеры statusBar и navigationBar???
+
+Получить WindowInsets можно из любой приаттаченой вьюхи:
+
+```java
+view.getRootWindowInsets(); //C 23 api
+```
+Ссылки:
+https://medium.com/@azizbekian/windowinsets-24e241d4afb9
+
+
+
