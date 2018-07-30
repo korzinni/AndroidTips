@@ -6,4 +6,4 @@
 - [ DataBinding Questions ](/DataBindingQuestions.md)
 - [ Action Bar ](/ActionBarTips.md)
 - [ Fragment State Pager Adapter ](/FragmentStatePagerAdapterTips.md)
-- [ Fragment State Pager Adapter ](/Window.md)
+- [ Window ](/Window.md)
