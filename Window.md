@@ -67,5 +67,11 @@ view.getRootWindowInsets(); //C 23 api
 Ссылки:
 https://medium.com/@azizbekian/windowinsets-24e241d4afb9
 
+Если для ConstraintLayout выставить background="@color/..." то этот цвет так же будет под статус баром, даже при наличии fitsSystemWindow = true.
+При попытке выставить topMargin для ConstraintLayout получаеся пробел м.у статус баром и тулбаром (верхним элементом ConstraintLayout )
+
+отказаться от fitsSystemWindow нельзя т.к разметка тянется при скрытии/появлении клавиатуры.
+
+
 
 
