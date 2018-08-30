@@ -1,6 +1,6 @@
 # TEXT
 
-##Неразрывные символы:
+### Неразрывные символы:
 
 Пробел:
 Название в Юникоде	No-Break Space
@@ -13,7 +13,7 @@ HTML-код	&#160;
 Номер в Юникоде	U+2011
 HTML-код	&#8209;
 
-##Шрифты:
+### Шрифты:
 
 Начиная с 8 или при помощи саппорт либы:
 
@@ -63,7 +63,7 @@ app:fontFamily="@font/roboto_medium_family"
 
 https://github.com/google/fonts/tree/master/apache
 
- ##Автоскейл:
+ ### Автоскейл:
  
  ```xml
 <android.support.v7.widget.AppCompatTextView
