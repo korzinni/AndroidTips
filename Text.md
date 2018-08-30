@@ -28,28 +28,37 @@ HTML-код	&#8209;
 
     <!-- regular -->
     <font
-        android:font="@font/roboto_medium"
+        android:font="@font/roboto_regular"
         android:fontStyle="normal"
         android:fontWeight="400"
 
-        app:font="@font/roboto_medium"
+        app:font="@font/roboto_regular"
         app:fontStyle="normal"
         app:fontWeight="400" />
 
     <!-- italic -->
     <font
-        android:font="@font/roboto_medium_italic"
+        android:font="@font/roboto_italic"
         android:fontStyle="italic"
         android:fontWeight="400"
 
-        app:font="@font/roboto_medium_italic"
+        app:font="@font/roboto_italic"
         app:fontStyle="italic"
         app:fontWeight="400" />
 
+    <!-- bold -->
+    <font
+        android:font="@font/roboto_bold"
+        android:fontStyle="normal"
+        android:fontWeight="700"
+
+        app:font="@font/roboto_bold"
+        app:fontStyle="normal"
+        app:fontWeight="700" />
 
 </font-family>
 ```
-где -  @font/roboto_medium_italic ссылки на фалы шрифта.
+где -  @font/roboto_bold ссылки на фалы шрифта.
 
 используется так:
 
