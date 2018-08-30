@@ -292,3 +292,5 @@ public class DragSwitcher extends FrameLayout {
 }
 
 ```
+для обработки жестов так же полезно:
+https://developer.android.com/training/gestures/viewgroup
