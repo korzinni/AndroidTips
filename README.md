@@ -7,3 +7,6 @@
 - [ Action Bar ](/ActionBarTips.md)
 - [ Fragment State Pager Adapter ](/FragmentStatePagerAdapterTips.md)
 - [ Window ](/Window.md)
+- [ TEXT ](/Text.md)
+
+
